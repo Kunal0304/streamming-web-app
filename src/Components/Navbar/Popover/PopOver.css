@@ -1,0 +1,86 @@
+ .youtube-popover-container {
+     position: relative;
+     display: inline-block;
+ }
+ /* .popover-trigger {
+     background-color: #ff0000;
+     color: #fff;
+     padding: 10px;
+     cursor: pointer;
+     border: none;
+ } */
+ 
+ .popover-content {
+     position: absolute;
+     top: 30px;
+     left: -200px;
+     z-index: 1;
+     background-color: #fff;
+     border: 1px solid #ccc;
+     padding: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     width: 275px;
+     border-radius: 15px;
+ }
+ 
+ .popover-content hr {
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .popover-flex {
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+     width: fit-content;
+     flex-wrap: wrap;
+     cursor: pointer;
+ }
+ 
+ .popover-flex img {
+     width: 20px;
+     margin-right: 20px;
+ }
+ 
+ .popover-flex .profile_icon {
+     width: 50px;
+     border-radius: 50px;
+ }
+ 
+ .popover-flex span {
+     padding-left: 70px;
+ }
+ 
+ .popover-flex span img {
+     width: 13px;
+     height: 13px;
+ }
+ /* You may customize the styles further based on your design */
+ /*
+.youtube-popover-container {
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+    
+
+
+}
+
+
+.popover-content img {
+    width: 20px;
+    margin-right: 20px;
+} 
+
+.popover-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}

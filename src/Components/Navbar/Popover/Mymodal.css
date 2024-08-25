@@ -1,0 +1,21 @@
+.modal-box {
+    box-sizing: border-box;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.modal-box-title {
+    margin: 25px 65px;
+}
+
+.modal-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-btn {
+    font-size: medium;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 15px;
+}
